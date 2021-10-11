@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2B4E7B51-97BC-045D-40CD-D8421BF12BDD}</ProjectGuid>
+    <ProjectGuid>{90554E80-21F5-AC95-ECC5-4B4D286648AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>FMODUnityEditor</AssemblyName>
@@ -92,25 +92,25 @@
     <Compile Include="Assets\Plugins\FMOD\src\Editor\Timeline\FMODEventPlayableEditor.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\Editor\Timeline\FMODEventTrackEditor.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/unity/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -305,7 +305,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Program Files/unity/2019.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -664,7 +664,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="FMODUnity.csproj">
-      <Project>{86322C81-1C78-3375-E5CA-AA524ED79491}</Project>
+      <Project>{5F87FF89-1897-5601-ABDB-28397A04A4A8}</Project>
       <Name>FMODUnity</Name>
     </ProjectReference>
   </ItemGroup>

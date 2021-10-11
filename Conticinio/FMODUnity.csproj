@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{86322C81-1C78-3375-E5CA-AA524ED79491}</ProjectGuid>
+    <ProjectGuid>{5F87FF89-1897-5601-ABDB-28397A04A4A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>FMODUnity</AssemblyName>
@@ -101,16 +101,16 @@
     <Compile Include="Assets\Plugins\FMOD\src\Runtime\wrapper\fmod_studio.cs" />
     <None Include="Assets\Plugins\FMOD\README.txt" />
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/unity/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

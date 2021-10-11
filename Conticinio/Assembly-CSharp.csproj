@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{22F38794-29CA-F0DD-65F6-276645E4DA76}</ProjectGuid>
+    <ProjectGuid>{42B9ED2A-A872-B32D-EA6A-FA6D28FDA731}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,40 +64,75 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\CanvasManager.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\Character.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\Conversation.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\CuestionController.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\DialogueSpeaker.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\DialogueUI.cs" />
+    <Compile Include="Assets\Scripts\DialogueScripts\Question.cs" />
+    <Compile Include="Assets\Scripts\InteractinSoul.cs" />
+    <Compile Include="Assets\Scripts\Node\ActionNode.cs" />
     <Compile Include="Assets\Scripts\Node\Node.cs" />
+    <Compile Include="Assets\Scripts\Node\QuestionNode.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Control.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\GroundedChecker.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerInteraction.cs" />
+    <Compile Include="Assets\Scripts\Timer\Timer.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinioo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/ProjectoExternos/pruebita-conticinio/Conticinio/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/unity/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -623,20 +658,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UnityExtensions.ArrayDrawer.csproj">
+      <Project>{B14BB23B-F162-94BF-70FC-9F0F86C3D246}</Project>
+      <Name>UnityExtensions.ArrayDrawer</Name>
+    </ProjectReference>
     <ProjectReference Include="FMODUnity.csproj">
-      <Project>{86322C81-1C78-3375-E5CA-AA524ED79491}</Project>
+      <Project>{5F87FF89-1897-5601-ABDB-28397A04A4A8}</Project>
       <Name>FMODUnity</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnityResonance.csproj">
-      <Project>{3E649482-4F26-70C1-D3C4-11FC0496334B}</Project>
+      <Project>{654C61A4-D81D-411D-948A-2D35451ACD0D}</Project>
       <Name>FMODUnityResonance</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnityResonanceEditor.csproj">
-      <Project>{49833798-E99A-FAFE-EA87-B2C869427354}</Project>
+      <Project>{87A446F4-81D3-FC75-1FB2-48606CC7914A}</Project>
       <Name>FMODUnityResonanceEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityExtensions.ArrayDrawer.Editor.csproj">
+      <Project>{A000EB2D-D4EF-8681-C669-643047E92B0C}</Project>
+      <Name>UnityExtensions.ArrayDrawer.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="FMODUnityEditor.csproj">
-      <Project>{2B4E7B51-97BC-045D-40CD-D8421BF12BDD}</Project>
+      <Project>{90554E80-21F5-AC95-ECC5-4B4D286648AD}</Project>
       <Name>FMODUnityEditor</Name>
     </ProjectReference>
   </ItemGroup>
