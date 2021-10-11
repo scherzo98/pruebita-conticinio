@@ -17,7 +17,7 @@ MonoBehaviour:
   reusable: 0
   dialogues:
   - _character: {fileID: 11400000, guid: c3e7f309a67f51b4ebc02c63f8abc872, type: 2}
-    dialogue: LALALALALAALLALALAL
+    dialogue: "conversaci\xF3n"
   - _character: {fileID: 11400000, guid: c3e7f309a67f51b4ebc02c63f8abc872, type: 2}
-    dialogue: asdasdasd
+    dialogue: respuesta
   question: {fileID: 11400000, guid: bc9a502d7c4561b4a8ef633c95d5fb59, type: 2}
