@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        _ground = new GroundedChecker(_grounded, _checkrad, _groundLayer);
+        _ground = new GroundedChecker(_grounded, _checkrad, _groundLayer,this.gameObject);
         _movement = new Movement(_rb,this.transform,_speed,_jumpForce);
         _control = new Control(_movement, _ground,_render,_timeToSlow,_interaction);
         
