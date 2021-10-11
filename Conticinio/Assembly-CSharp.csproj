@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\Node\ActionNode.cs" />
     <Compile Include="Assets\Scripts\Node\Node.cs" />
     <Compile Include="Assets\Scripts\Node\QuestionNode.cs" />
+    <Compile Include="Assets\Scripts\PlatForm.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Control.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\GroundedChecker.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Movement.cs" />
