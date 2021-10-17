@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Bank" id="{7baafb39-81e3-45d6-a6e2-54fc54751188}">
+		<property name="name">
+			<value>slow pitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0aa7c901-0fdb-41c3-9b5d-6f526bba89b0}</destination>
+		</relationship>
+	</object>
+</objects>

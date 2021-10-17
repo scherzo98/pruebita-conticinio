@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{0ef29eec-c86c-46d5-a058-dec056b3deb9}">
+		<property name="assetPath">
+			<value>Soporte fijo 1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>215.61766666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{604bf160-f517-4cc4-a6bf-dfeb55e19210}</destination>
+		</relationship>
+	</object>
+</objects>

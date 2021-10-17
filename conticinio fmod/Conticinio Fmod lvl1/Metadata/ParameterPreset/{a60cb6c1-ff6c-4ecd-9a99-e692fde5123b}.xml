@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{a60cb6c1-ff6c-4ecd-9a99-e692fde5123b}">
+		<property name="name">
+			<value>plano almas (arriba-abajo)</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c44c88ab-d3b8-4d62-a515-ab3778128c3b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2e50be3f-d9ef-4805-9a49-08457239b86b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2e50be3f-d9ef-4805-9a49-08457239b86b}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Arriba</value>
+			<value>Abajo</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{f88b8e17-e537-45a2-8d40-165f9955fe20}">
+		<property name="name">
+			<value>reverb-dereverb</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c44c88ab-d3b8-4d62-a515-ab3778128c3b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{62a786d9-075c-4544-ba34-a61a0e825650}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{62a786d9-075c-4544-ba34-a61a0e825650}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>-1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

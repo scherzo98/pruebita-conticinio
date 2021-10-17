@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Conversacion2 deberia tenermuisica
   m_EditorClassIdentifier: 
   unlock: 1
-  finish: 0
+  finish: 1
   reusable: 0
   dialogues:
   - _character: {fileID: 11400000, guid: c3e7f309a67f51b4ebc02c63f8abc872, type: 2}

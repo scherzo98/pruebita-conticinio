@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EffectPreset" id="{f6c36f89-8219-47f9-8cb5-66212d81b63b}">
+		<property name="name">
+			<value>Delay</value>
+		</property>
+		<relationship name="folder">
+			<destination>{397a5759-6a87-46f2-a793-5386761474de}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{a6d15f55-5664-4f21-a8b2-8bc03d379891}</destination>
+		</relationship>
+	</object>
+	<object class="DelayEffect" id="{a6d15f55-5664-4f21-a8b2-8bc03d379891}">
+		<property name="delay">
+			<value>740</value>
+		</property>
+		<relationship name="automators">
+			<destination>{ddd51b94-773c-41d9-9f0c-6e1ed82acc72}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{ddd51b94-773c-41d9-9f0c-6e1ed82acc72}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>level</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{f3c28b12-8a89-414d-8b04-1005377fd7cc}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{f3c28b12-8a89-414d-8b04-1005377fd7cc}">
+		<relationship name="parameter">
+			<destination>{62a786d9-075c-4544-ba34-a61a0e825650}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{1e8e0292-7603-473d-989d-d940cab9e282}</destination>
+			<destination>{0aa3b052-e50b-47ed-b32b-5d64bba0fbe7}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{1e8e0292-7603-473d-989d-d940cab9e282}">
+		<property name="position">
+			<value>0.41999999999999998</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{0aa3b052-e50b-47ed-b32b-5d64bba0fbe7}">
+		<property name="position">
+			<value>0.95999999999999996</value>
+		</property>
+		<property name="value">
+			<value>-15</value>
+		</property>
+	</object>
+</objects>
