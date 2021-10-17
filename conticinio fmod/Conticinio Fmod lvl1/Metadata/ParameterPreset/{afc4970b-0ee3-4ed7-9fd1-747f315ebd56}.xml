@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{afc4970b-0ee3-4ed7-9fd1-747f315ebd56}">
+		<property name="name">
+			<value>altura (hp-lp)</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c44c88ab-d3b8-4d62-a515-ab3778128c3b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{305e59c4-4bb3-40fd-b11f-ba26989c8222}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{305e59c4-4bb3-40fd-b11f-ba26989c8222}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

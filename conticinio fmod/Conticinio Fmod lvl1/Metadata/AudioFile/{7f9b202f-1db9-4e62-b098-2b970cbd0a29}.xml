@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{7f9b202f-1db9-4e62-b098-2b970cbd0a29}">
+		<property name="assetPath">
+			<value>mascara 2jorge.18.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{604bf160-f517-4cc4-a6bf-dfeb55e19210}</destination>
+		</relationship>
+	</object>
+</objects>

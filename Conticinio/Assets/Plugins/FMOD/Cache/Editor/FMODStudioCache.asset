@@ -286,6 +286,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 0
+--- !u!114 &-8664419350624587766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/HPF/altura '
+  m_EditorClassIdentifier: 
+  Name: 'altura '
+  Min: -32
+  Max: 34
+  Default: -4
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Exists: 0
 --- !u!114 &-8641745136517465916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -727,6 +749,28 @@ MonoBehaviour:
   IsGlobal: 1
   Exists: 0
 --- !u!114 &-7615990201359326473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/HPF/altura '
+  m_EditorClassIdentifier: 
+  Name: 'altura '
+  Min: -32
+  Max: 34
+  Default: -4
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Exists: 0
+--- !u!114 &-7516557506336480908
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2110,7 +2154,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 5255860764516112344}
+  - {fileID: 1473327045622064249}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -2401,6 +2445,28 @@ MonoBehaviour:
   IsGlobal: 1
   Exists: 0
 --- !u!114 &-3759234355733518931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/HPF/altura '
+  m_EditorClassIdentifier: 
+  Name: 'altura '
+  Min: -32
+  Max: 34
+  Default: -4
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Exists: 0
+--- !u!114 &-3667623947266139622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2789,7 +2855,7 @@ MonoBehaviour:
   Path: ../conticinio fmod/Conticinio Fmod (HP,LP)/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637693785020000000
+  lastModified: 637693803450000000
   FileSizes:
   - Name: Desktop
     Value: 832
@@ -3367,6 +3433,28 @@ MonoBehaviour:
   IsGlobal: 1
   Exists: 0
 --- !u!114 &-1006961783404992770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/HPF/altura '
+  m_EditorClassIdentifier: 
+  Name: 'altura '
+  Min: -32
+  Max: 34
+  Default: -4
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Exists: 0
+--- !u!114 &-952501668603737676
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4116,7 +4204,7 @@ MonoBehaviour:
   - {fileID: 5316499349940520796}
   StringsBanks:
   - {fileID: -2586109249544573371}
-  stringsBankWriteTime: 637693785020000000
+  stringsBankWriteTime: 637693803450000000
   cacheVersion: 8
 --- !u!114 &25389204602375808
 MonoBehaviour:
@@ -4690,6 +4778,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 1
+--- !u!114 &1473327045622064249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/HPF/altura '
+  m_EditorClassIdentifier: 
+  Name: 'altura '
+  Min: -32
+  Max: 34
+  Default: -4
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
 --- !u!114 &1476004052507444356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5057,7 +5167,7 @@ MonoBehaviour:
   Path: ../conticinio fmod/Conticinio Fmod (HP,LP)/Build/Desktop/Master 2.bank
   Name: Master 2
   StudioPath: bank:/Master 2
-  lastModified: 637693785020000000
+  lastModified: 637693803450000000
   FileSizes:
   - Name: Desktop
     Value: 482
@@ -5590,6 +5700,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Exists: 0
+--- !u!114 &3711658177629760907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/HPF/altura '
+  m_EditorClassIdentifier: 
+  Name: 'altura '
+  Min: -32
+  Max: 34
+  Default: -4
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Exists: 1
 --- !u!114 &3799350207063316348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5679,6 +5811,28 @@ MonoBehaviour:
   IsGlobal: 1
   Exists: 1
 --- !u!114 &3913487208385581458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/HPF/altura '
+  m_EditorClassIdentifier: 
+  Name: 'altura '
+  Min: -32
+  Max: 34
+  Default: -4
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Exists: 0
+--- !u!114 &3914718640062970983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6397,7 +6551,7 @@ MonoBehaviour:
   Path: ../conticinio fmod/Conticinio Fmod (HP,LP)/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637693785020000000
+  lastModified: 637693803450000000
   FileSizes:
   - Name: Desktop
     Value: 174080
@@ -6865,6 +7019,28 @@ MonoBehaviour:
   IsGlobal: 1
   Exists: 0
 --- !u!114 &6345674417177811835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/HPF/altura '
+  m_EditorClassIdentifier: 
+  Name: 'altura '
+  Min: -32
+  Max: 34
+  Default: -4
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Exists: 0
+--- !u!114 &6346439723877627177
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

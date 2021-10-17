@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{7ae4fc31-58ed-48f0-a98a-11b92698c079}">
+		<property name="name">
+			<value>subsecciones A</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c44c88ab-d3b8-4d62-a515-ab3778128c3b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{13137f84-b91b-4b1c-ad0c-fd0b8bae4a59}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{13137f84-b91b-4b1c-ad0c-fd0b8bae4a59}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>máscara</value>
+			<value>alma</value>
+			<value>golgotha</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
