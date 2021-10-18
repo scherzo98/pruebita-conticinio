@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityExtensions;
+//using UnityExtensions;
 
 public class DialogueSpeaker : MonoBehaviour
 {
-    [ReorderableList]
+    //[ReorderableList]
     public List<Conversation> availableConversation = new List<Conversation>();
 
     [SerializeField] int indexConversation = 0;

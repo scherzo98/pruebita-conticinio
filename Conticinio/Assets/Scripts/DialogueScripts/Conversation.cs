@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityExtensions;
+﻿using UnityEngine;
+//using UnityExtensions;
 
 [CreateAssetMenu(fileName = "Conversacion", menuName = "Sistema de Dialogo/Nueva Conversacion")]
 public class Conversation : ScriptableObject
@@ -18,12 +16,12 @@ public class Conversation : ScriptableObject
     public bool unlock;
     public bool finish;
     public bool reusable;
-    [ReorderableList]
+   
     public Linea[] dialogues;
 
-    //
+ 
     public Question question;
-    //
+    
    
    
 }

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityExtensions;
+//using UnityExtensions;
 [System.Serializable]
 public struct Option
 {
@@ -15,6 +15,6 @@ public class Question : ScriptableObject
 {
     [TextArea(3, 5)]
     public string question;
-    [ReorderableList]
+   // [ReorderableList]
     public Option[] options;
 }
