@@ -20,6 +20,7 @@ public class Movement
 	public void Move(Vector2 v)
     {
 		_player.position += new Vector3(v.x, 0, v.y) * _speed * Time.deltaTime;
+		
 	}
   
 	public void Jump()

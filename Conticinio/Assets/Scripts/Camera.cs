@@ -6,11 +6,11 @@ public class Camera : MonoBehaviour
 {
     [SerializeField] Transform trackingTarget;
 
-    [SerializeField]
-    float xOffset;
 
+    
+     public float _xOffset;
     [SerializeField]
-    float yOffset;
+    float _yOffset;
 
     [SerializeField]
     protected float followSpeed;
@@ -22,12 +22,11 @@ public class Camera : MonoBehaviour
     protected bool isYLocked = false;
 
 
-    // ...
 
     private void Update()
     {
-        float xTarget = trackingTarget.position.x + xOffset;
-        float yTarget = trackingTarget.position.y + yOffset;
+        float xTarget = trackingTarget.position.x + _xOffset;
+        float yTarget = trackingTarget.position.y + _yOffset;
 
         float xNew = transform.position.x;
         if (!isXLocked)
@@ -42,5 +41,9 @@ public class Camera : MonoBehaviour
         }
 
         transform.position = new Vector3(xNew, yNew, transform.position.z);
+    }
+    public void ChangeOffset()
+    {
+        _xOffset = -6.33f;
     }
 }

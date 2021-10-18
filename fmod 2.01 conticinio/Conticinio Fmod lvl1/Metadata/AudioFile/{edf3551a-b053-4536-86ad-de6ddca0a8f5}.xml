@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{edf3551a-b053-4536-86ad-de6ddca0a8f5}">
+		<property name="assetPath">
+			<value>Musica/máscara maría .11.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3796875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{604bf160-f517-4cc4-a6bf-dfeb55e19210}</destination>
+		</relationship>
+	</object>
+</objects>

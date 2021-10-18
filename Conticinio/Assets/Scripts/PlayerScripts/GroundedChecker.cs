@@ -6,7 +6,7 @@ public class GroundedChecker
 {
     Transform _isGroundedChecker;
     float _checkGroundRadius;
-    bool isGrounded;
+   
     LayerMask _groundLayer;
     GameObject _player;
 
@@ -24,11 +24,11 @@ public class GroundedChecker
         if (collider != null)
         {
             _player.transform.parent = collider.gameObject.transform;
-            return isGrounded = true;
+            return true;
 
         }
              
         else
-            return isGrounded = false;
+            return false;
     }
 }

@@ -1,0 +1,2 @@
+C:\ProjectoExternos\pruebita-conticinio\Conticinio\obj\Debug\FMODUnityResonance.csprojAssemblyReference.cache
+C:\ProjectoExternos\pruebita-conticinio\Conticinio\obj\Debug\FMODUnityResonance.csproj.CoreCompileInputs.cache

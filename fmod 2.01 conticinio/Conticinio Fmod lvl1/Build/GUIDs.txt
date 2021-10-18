@@ -1,0 +1,19 @@
+{52c9a42f-7109-4a58-b399-3704da7aa9cb} bank:/FX/filter
+{dfcd0786-43d1-4ca8-9112-13fc2d7eb40c} bank:/FX/layers
+{09622c6a-f111-45d7-90d2-cabce8a1cc2d} bank:/FX/reverb-dereverb
+{7baafb39-81e3-45d6-a6e2-54fc54751188} bank:/FX/slow pitch
+{ab512b7f-78b7-446c-87ab-d31d8e595ecb} bank:/FX/stair_pitch
+{103142bc-d792-46d1-81d7-5b2e4aae3791} bank:/FX/volume
+{148c3d10-fbd9-4143-b2c8-8de4a46f34a2} bank:/MUSICA LVL1
+{dd9a72a1-3d76-4350-a4a8-17bea900fe78} bank:/musica
+{814351e5-b565-4561-a143-718aa62fff55} event:/FX/Dinámica/volume
+{f04230ad-0331-4f67-8a05-cc64078c3705} event:/FX/Filtraje/HPF
+{185b4439-ad82-4269-bf85-a40bc385d743} event:/FX/Layers lvl1/Alma 1
+{2bcfa230-6da7-4f70-8287-b90af55bb5e4} event:/FX/Layers lvl1/Alma 2
+{7c3bfe86-e29c-407d-bafc-6982264f4d9e} event:/FX/Layers lvl1/Golgotha 1
+{1ca58636-3d68-4271-8e57-a1fdc79a16ab} event:/FX/Layers lvl1/Golgotha 2
+{6d3b6819-5e23-49b3-841f-119c877f71aa} event:/FX/Layers lvl1/Mascara 1
+{d5f644aa-206d-4cd0-9fd1-ccf6ffec874d} event:/FX/Layers lvl1/Mascara 2
+{1ced8118-da4a-4082-97d6-e417fbff7844} event:/FX/Pitch/stair_pitch
+{19897c25-7c4f-4ccb-b5dc-c4ce22319162} event:/FX/realentización/realentizar
+{82d7069e-70d8-4c94-9f75-3c5c05314172} event:/MÚSICA/level01

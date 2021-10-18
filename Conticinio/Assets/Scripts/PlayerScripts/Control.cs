@@ -17,9 +17,10 @@ public class Control
     SpriteRenderer _render;
     TimerMethod _timer;
     PlayerInteraction _interaction;
+    Animator _anim;
     float _timeToSlow;
     int _countToNormal;
-    public Control(Movement m,GroundedChecker g,SpriteRenderer render,float time, PlayerInteraction p)
+    public Control(Movement m,GroundedChecker g,SpriteRenderer render,float time, PlayerInteraction p,Animator a)
     {
         
         _movement = m;
@@ -27,6 +28,7 @@ public class Control
         _render= render;
         _timeToSlow = time;
         _interaction = p;
+        _anim = a;
         _timer = new TimerMethod();
         _states = ControlStates.Moving;
 
@@ -44,10 +46,16 @@ public class Control
                 _movement.Jump();
 
             if (MovementInput() != Vector2.zero)
+            {
+                _anim.SetBool("walk", true); 
                 _movement.Move(MovementInput());
+
+            }
+                
             else
             {
                 //si supera el tiempo pasa al estado de no me puedo mover
+                _anim.SetBool("walk", false);
 
                 if (_timer.Timer(_timeToSlow))
                 {
@@ -109,11 +117,11 @@ public class Control
         
             if (h < 0)
             {
-            _render.flipY = true;
+            _render.flipX = true;
             }
             if (h > 0)
             {
-            _render.flipY = false;
+            _render.flipX = false;
             }
     }
 
